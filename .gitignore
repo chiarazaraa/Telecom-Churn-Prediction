@@ -1,0 +1,42 @@
+# DATA / MODELS / OUTPUTS
+data/
+models/
+outputs/
+mlruns/
+logs/
+
+*.pkl
+*.csv
+*.parquet
+*.joblib
+*.h5
+*.onnx
+
+# ENV / SECRETS
+.env
+.env.*
+!.env.example
+
+# PYTHON
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# VIRTUAL ENV
+venv/
+.venv/
+env/
+
+# AIRFLOW
+airflow/logs/
+airflow/plugins/__pycache__/
+*.db
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

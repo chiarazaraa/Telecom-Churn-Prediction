@@ -1,0 +1,14 @@
+numpy<2.0
+scikit-learn>=1.4.0
+lightgbm
+shap
+pandas
+matplotlib
+seaborn
+scipy
+category_encoders
+pyarrow<15.0
+mlflow
+streamlit
+plotly
+optuna
