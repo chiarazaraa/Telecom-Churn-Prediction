@@ -341,10 +341,10 @@ docker compose logs streamlit --tail=50
 
 | Metric | LightGBM (Optuna) | Logistic Regression |
 |--------|-------------------|---------------------|
-| AUC-ROC | ~0.79 | ~0.77 |
-| F1 Score | ~0.45 | ~0.43 |
-| Recall | ~0.68 | ~0.65 |
-| Precision | ~0.35 | ~0.34 |
+| AUC-ROC | ~0.70 | ~0.63 |
+| F1 Score | ~0.68 | ~0.43 |
+| Recall | ~0.77 | ~0.65 |
+| Precision | ~0.60 | ~0.34 |
 
 **Business impact (top 20% customers):** captures ~60–70% of all churners, enabling targeted retention with a 3–4× lift over random outreach.
 
