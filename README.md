@@ -13,7 +13,7 @@
 
 ## Overview
 
-This project implements a complete ML lifecycle for **telecom customer churn prediction** on a dataset of ~47,000 customers with 230 raw features. The pipeline is fully containerised with Docker and orchestrated by Apache Airflow, covering data preparation, exploratory analysis, dual-model training, statistical model selection, SHAP-based explainability, and an executive-level business dashboard.
+This project implements a complete ML lifecycle for **telecom customer churn prediction** on a dataset of 100,000 customers with 100 raw features. The pipeline is fully containerised with Docker and orchestrated by Apache Airflow, covering data preparation, exploratory analysis, dual-model training, statistical model selection, SHAP-based explainability, and an executive-level business dashboard.
 
 **Key highlights:**
 - Statistically rigorous model comparison (bootstrap AUC + McNemar test)
